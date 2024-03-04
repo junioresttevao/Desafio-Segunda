@@ -9,6 +9,26 @@ body {
     background-color: #f5f5f5;
 }
 
+/* Media query para dispositivos móveis */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    h2 {
+      font-size: 1.5em;  
+    }
+    aside {
+        display: none;
+    }
+
+/* Media query para desktops*/
+@media (min-width: 1024px) {
+    .container {
+        width: 50%;
+    }   
+}
+
+}
 .container {
     background-color: #fff;
     padding: 30px;
@@ -16,10 +36,10 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/*.logo {
+.logo {
     width: 100px;
     margin-bottom: 20px;
-}*/
+}
 
 h1 {
     text-align: center;
@@ -42,7 +62,7 @@ input {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #2FB23C;    ;
     color: white;
     padding: 10px 20px;
     border: none;
