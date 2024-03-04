@@ -9,9 +9,9 @@ JavaScript
 
 Funcionalidades:
 
-Validação de email e senha
-Mensagens de erro para campos inválidos
-Botão de login
+Validação de email e senha:
+Mensagens de erro para campos inválidos.
+Botão de login.
 
 Instruções de Uso:
 
@@ -26,10 +26,5 @@ O código HTML está organizado em um único arquivo index.html.
 O código CSS está organizado em um único arquivo style.css.
 O código JavaScript está organizado em um único arquivo script.js.
 
-Licença:
-
-Este projeto está licenciado sob a licença MIT.
-
 Autor:
-
 Júnior Estevão
